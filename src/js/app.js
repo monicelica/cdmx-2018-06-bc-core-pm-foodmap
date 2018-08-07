@@ -286,9 +286,4 @@ document.getElementById("distance-three").addEventListener("click", function(){
 
 
 
-document.getElementById("close").addEventListener("click", function(){
-    
-        location.href = '../views/home.html';
-     
-});
 
