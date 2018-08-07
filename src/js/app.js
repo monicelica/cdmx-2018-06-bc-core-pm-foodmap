@@ -154,6 +154,7 @@ document.getElementById("ditance-one").addEventListener("click", function(){
 //2KM
 document.getElementById("distance-two").addEventListener("click", function(){
     //filtrar a travez de la distacia
+    document.getElementById("demo").innerHTML= ` `;
     const filter = restaurant.filter(restaurants => (restaurants.distance === 2));
     console.log(filter);
     for(let i = 0; i < filter.length; i++){
@@ -220,6 +221,7 @@ document.getElementById("distance-two").addEventListener("click", function(){
 //3KM
 document.getElementById("distance-three").addEventListener("click", function(){
     //filtrar a travez de la distacia
+    document.getElementById("demo").innerHTML= ` `;
     const filter = restaurant.filter(restaurants => (restaurants.distance >= 3));
     console.log(filter);
     for(let i = 0; i < filter.length; i++){
