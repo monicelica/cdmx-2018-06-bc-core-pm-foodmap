@@ -1,0 +1,9 @@
+body{
+    /*background: -webkit-linear-gradient(top, rgba(252,249,252,1) 0%, rgba(242,113,87,1) 58%, rgba(230,39,64,1) 93%, rgba(230,39,64,1) 100%);*/
+    background-image: url("../images/coco2.jpeg");
+}
+
+.trans{
+    color: transparent;
+    height: 300px;
+}
